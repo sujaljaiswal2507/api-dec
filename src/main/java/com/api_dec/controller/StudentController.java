@@ -41,6 +41,7 @@ public class StudentController {
         response.setMessage("created");
         response.setStatus(201);
         response.setData("permanently deleted from database");
+        System.out.println("hello dear sujal");
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }
