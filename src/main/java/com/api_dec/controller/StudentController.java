@@ -40,8 +40,7 @@ public class StudentController {
         APIResponse<String> response = new APIResponse<>();
         response.setMessage("created");
         response.setStatus(201);
-        response.setData("permanently deleted from database");
-        System.out.println("hello dear sujal");
+        response.setData("deleted from the database");
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }
